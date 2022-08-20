@@ -1,0 +1,49 @@
+#img1{
+    margin: auto;
+    display: block;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#content{
+    grid-column: 2/12;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 3px;
+    margin: 1px;
+}
+
+#input{
+    width: 300px;
+}
+
+#box1{
+    padding: 5px;
+    background-color: aquamarine;
+    grid-column: 2/6;
+    text-align: center;
+    margin: 1px;
+}
+
+#box2{
+    padding: 5px;
+    background-color: rgb(113, 228, 189);
+    grid-column: 6/8;
+    text-align: center;
+    margin: 1px;
+}
+
+#box3{
+    padding: 5px;
+    background-color: rgb(97, 197, 164);
+    grid-column: 8/12;
+    text-align: center;
+    margin: 1px;
+}
+
+#copyright{
+    grid-column: 6/8;
+}
